@@ -70,7 +70,7 @@ header p {
 .skills ul {
     padding-left: 20px; /* Indent skill items for better alignment */
 }
-@font-face {
+h1 {
     font-family: 'Friday Night Funkin Regular';
     src: url('fonts/friday-night-funkin.regular.otf') format('opentype');
     font-weight: normal;
