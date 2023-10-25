@@ -1,0 +1,78 @@
+/* media.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+    color: #333;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px; /* Updated padding for better spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Changed from inline to inline-block for better control */
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold; /* Make text bold for better readability */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+    color: #ffb400; /* Add a hover effect to navigation links */
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0; /* Updated margin for better vertical spacing */
+    background-color: #fff;
+    border-radius: 8px; /* Slightly increased border-radius for a smoother look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for hover effect */
+}
+
+section:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.about-me p,
+.education p,
+.skills ul li,
+.experience div h3,
+.experience div p {
+    margin-bottom: 15px; /* Consistent bottom margin for better readability */
+}
+
+.skills ul {
+    padding-left: 20px; /* Indent skill items for better alignment */
+}
+@font-face {
+    font-family: 'YourFontName';
+    src: url('fonts/YourFontFile.otf') format('opentype'),
+    font-weight: normal;
+    font-style: normal;
+}
