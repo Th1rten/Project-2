@@ -71,8 +71,8 @@ header p {
     padding-left: 20px; /* Indent skill items for better alignment */
 }
 @font-face {
-    font-family: 'YourFontName';
-    src: url('fonts/YourFontFile.otf') format('opentype'),
+    font-family: 'Friday Night Funkin Regular';
+    src: url('fonts/friday-night-funkin.regular.otf') format('opentype'),
     font-weight: normal;
     font-style: normal;
 }
