@@ -37,8 +37,7 @@ section {
 
 img {
     width: 200px;
-    max-height: 150px; 
-    height: auto; 
+    height: auto;
     display: block;
     margin: 0 auto;
 }
