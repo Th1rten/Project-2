@@ -1,13 +1,3 @@
-:root {
-    --primary-color: #333;
-    --text-color: #fff;
-    --link-color: #007bff;
-    --link-hover-color: #0056b3;
-    --background-color: #f0f0f0;
-    --container-background: #fff;
-    --container-shadow: rgba(0, 0, 0, 0.2);
-}
-
 /* Base styles */
 body {
     font-family: Arial, sans-serif, "Helvetica Neue", Helvetica;
