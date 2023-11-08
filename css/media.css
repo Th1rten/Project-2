@@ -47,11 +47,9 @@ img {
     display: block;
     margin: 0 auto;
 }
-h1 {
+@font-face {
     font-family: 'Friday Night Funkin Regular';
-    src: url('fonts/friday-night-funkin.regular.otf') format('opentype');
+    src: url('path-to-your-font-folder/friday-night-funkin.regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
-    text-shadow: 2px 2px 4px #000000; /* This adds a black shadow to the text */
-    color: #990000; /* Placeholder for Mourne red */
 }
