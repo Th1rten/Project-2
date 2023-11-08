@@ -4,11 +4,11 @@ body {
     background-color: #f0f0f0;
 }
 
-/* Set the navigation bar to match the size of the index.css */
 nav {
     background-color: #333;
     color: #fff;
-    padding: 20px; /* Add padding to match the size */
+    padding: 15px 20px; /* Updated padding for better spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -18,13 +18,19 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block; /* Changed from inline to inline-block for better control */
     margin-right: 20px;
 }
 
 nav a {
     text-decoration: none;
     color: #fff;
+    font-weight: bold; /* Make text bold for better readability */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+    color: #ffb400; /* Add a hover effect to navigation links */
 }
 
 section {
