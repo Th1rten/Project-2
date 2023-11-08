@@ -70,6 +70,15 @@ p {
     margin-top: 20px; /* Add space above paragraphs */
 }
 
+h1 {
+    font-family: 'Friday Night Funkin Regular';
+    src: url('fonts/friday-night-funkin.regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    text-shadow: 2px 2px 4px #000000; /* This adds a black shadow to the text */
+    color: #990000; /* Placeholder for Mourne red */
+}
+
 /* Underline links on hover for better user interaction */
 a:hover {
     text-decoration: underline; /* Underline links on hover */
