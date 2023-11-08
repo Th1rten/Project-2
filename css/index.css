@@ -38,7 +38,7 @@ nav a:hover {
 section {
     padding: 20px;
     margin: 20px 0; /* Updated margin for better vertical spacing */
-    background-color: #fff;
+    background-color: #D3D3D3;
     border-radius: 8px; /* Slightly increased border-radius for a smoother look */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for hover effect */
