@@ -56,7 +56,7 @@ a {
 
 /* Enhancements for the iframe to fit it within the design */
 iframe {
-    width: 100%; /* Make iframe responsive */
+    width: 50%; /* Make iframe responsive */
     height: 315px; /* Set a fixed height */
     border: 0; /* Remove the border for a cleaner look */
     display: block; /* Prevent inline display */
