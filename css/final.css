@@ -54,13 +54,13 @@ a {
 
 /* Simple additional styles for refinement */
 
-/* Enhancements for the iframe to fit it within the design */
+/* Center iframe on the page */
 iframe {
-    width: 50%; /* Make iframe responsive */
-    height: 315px; /* Set a fixed height */
-    border: 0; /* Remove the border for a cleaner look */
-    display: block; /* Prevent inline display */
-    margin-bottom: 20px; /* Add some space below the video */
+    display: block; /* Ensures that iframe is treated as a block-level element */
+    margin: 20px auto; /* Adds margin to the top and bottom, and sets left and right margins to auto */
+    width: 560px; /* Specifies a width for the iframe */
+    height: 315px; /* Specifies a height for the iframe */
+    border: 0; /* Optional: Removes the border */
 }
 
 /* Slight improvements to paragraph styles for aesthetics */
